@@ -1,0 +1,227 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 1.25rem;
+  border-bottom: 0.125rem solid white;
+}
+
+h3{
+  margin-bottom: 0.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0.625rem;
+  padding: 0.313rem 0.625rem;
+  border: 0.063rem solid white;
+  border-radius: 0.313rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); 
+  gap: 0.938rem; 
+  padding: 0.938rem;
+}
+
+.post {
+  border: 0.125rem solid white;
+  background-color: black;
+  color: white;
+  width: 25rem; 
+  min-width: fit-content;
+  height: 8.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9rem; 
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.post:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: 1.25rem;
+  border-top: 0.125rem solid white;
+  padding: 0.625rem 0;
+}
+
+.angelix,
+.slovakia,
+.incoming {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.att {
+  padding: 0.938rem;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 0.938rem;
+  position: relative;
+  border-radius: 0.313rem;
+}
+
+.close-btn,
+.dont-show-btn {
+  position: absolute;
+  top: 0.313rem;
+  right: 0.625rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.dont-show-btn {
+  right: 7.5rem;
+  font-size: 0.875rem;
+}
+
+.close-btn:hover,
+.dont-show-btn:hover {
+  color: black;
+}
+
+.checkbox-container {
+  position: absolute;
+  bottom: 0.313rem;
+  right: 0.625rem;
+  font-size: 0.875rem;
+}
+
+ul{
+  margin-bottom: 1rem;
+}
+
+#updates-tab {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 18.75rem; 
+  background-color: black;
+  box-shadow: -0.125rem 0 0.313rem rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+#close-btn {
+  position: absolute;
+  top: 0.625rem;
+  left: 0.625rem;
+  border: 0.063rem solid white;
+  background: black;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: white;
+}
+
+#open-btn {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: black;
+  color: white;
+  border: 0.063rem solid white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#updates-tab.open {
+  transform: translateX(0);
+}
+
+
+
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .post {
+    width: 20rem; 
+    justify-content: center;
+    align-items: center;
+  }
+  nav a{
+    margin: 0 0.313rem;
+    display:grid;
+    margin-top: 5%;
+  }
+  #open-btn {
+    position:fixed; 
+    bottom: 1.25rem;
+    right: 1.25rem;
+    padding: 0.425rem 0.800rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 0.5%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+  .content {
+    display:block;
+    }
+  .post {
+    width: 20rem; 
+    justify-content: center;
+    align-items: center
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .post {
+    width: 95%; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    display:block;
+    margin: 0 0.313rem;
+  }
+  body{
+      width:100%;
+  }
+}
+  
+@media only screen and (max-width: 1200px) {
+  .post {
+    width: 95%; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    display:block;
+    margin: 0 0.313rem;
+  }
+  body{
+      width:100%;
+  }
+}

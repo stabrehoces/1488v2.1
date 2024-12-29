@@ -1,0 +1,110 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+form {
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 1.25rem;
+    border: 0.125rem solid black;
+    text-align: center;
+}
+header {
+    text-align: center;
+    padding: 1.25rem;
+    border-bottom: 0.125rem solid white;
+}
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 1.25rem;
+    border-top: 0.125rem solid white;
+    padding: 0.625rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 0.625rem;
+    padding: 0.313rem 0.625rem;
+    border: 0.063rem solid white;
+    border-radius: 0.313rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+    .post {
+      width: 20rem; 
+      justify-content: center;
+      align-items: center;
+    }
+    nav a{
+      margin: 0 0.313rem;
+      display:grid;
+      margin-top: 5%;
+    }
+    #open-btn {
+      position:fixed; 
+      bottom: 1.25rem;
+      right: 1.25rem;
+      padding: 0.425rem 0.800rem;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-right: 0.5%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 600px) and (orientation: landscape) {
+    .content {
+      display:block;
+      }
+    .post {
+      width: 20rem; 
+      justify-content: center;
+      align-items: center
+    }
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
+    .post {
+      width: 95%; 
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content {
+      display:block;
+      margin: 0 0.313rem;
+    }
+    body{
+        width:100%;
+    }
+  }
+    
+  @media only screen and (max-width: 1200px) {
+    .post {
+      width: 95%; 
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content {
+      display:block;
+      margin: 0 0.313rem;
+    }
+    body{
+        width:100%;
+    }
+  }
+  

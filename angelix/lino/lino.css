@@ -1,0 +1,111 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+footer {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 20px;
+    border-top: 2px solid white;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+h3{
+  margin-top: 0 ;
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+    .post {
+      width: 20rem; 
+      justify-content: center;
+      align-items: center;
+    }
+    nav a{
+      margin: 0 0.313rem;
+      display:grid;
+      margin-top: 5%;
+    }
+    #open-btn {
+      position:fixed; 
+      bottom: 1.25rem;
+      right: 1.25rem;
+      padding: 0.425rem 0.800rem;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-right: 0.5%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 600px) and (orientation: landscape) {
+    .content {
+      display:block;
+      }
+    .post {
+      width: 20rem; 
+      justify-content: center;
+      align-items: center
+    }
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
+    .post {
+      width: 95%; 
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content {
+      display:block;
+      margin: 0 0.313rem;
+    }
+    body{
+        width:100%;
+    }
+  }
+    
+  @media only screen and (max-width: 1200px) {
+    .post {
+      width: 95%; 
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content {
+      display:block;
+      margin: 0 0.313rem;
+    }
+    body{
+        width:100%;
+    }
+  }
+  
