@@ -8,24 +8,24 @@ body {
 }
 header {
     text-align: center;
-    padding: 20px;
-    border-bottom: 2px solid white;
+    padding: 1.25rem;
+    border-bottom: 0.125rem solid white;
 }
 footer {
     text-align: center;
     text-decoration: none;
     color: aliceblue;
-    margin-top: 20px;
-    border-top: 2px solid white;
-    padding: 10px 0;
+    margin-top: 1.25rem;
+    border-top: 0.125rem solid white;
+    padding: 0.625rem 0;
 }
 nav a {
     text-decoration: none;
     color: white;
-    margin: 0 10px;
-    padding: 5px 10px;
-    border: 1px solid white;
-    border-radius: 5px;
+    margin: 0 0.625rem;
+    padding: 0.313rem 0.625rem;
+    border: 0.063rem solid white;
+    border-radius: 0.313rem;
     transition: background-color 0.3s, color 0.3s;
 }
 nav a:hover {

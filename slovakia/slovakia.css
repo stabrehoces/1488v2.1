@@ -46,10 +46,15 @@ li {
     color: white;
 }
 
+video{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
 .next{
     margin-bottom: 1rem;
 }
-
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     .post {

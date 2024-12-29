@@ -33,6 +33,15 @@ footer {
     border-top: 0.125rem solid white;
     padding: 0.625rem 0;
 }
+h2{
+  font-size: 35px;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+  text-align: center ;
+}
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     .post {

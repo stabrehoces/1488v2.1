@@ -45,11 +45,14 @@ ul {
 li {
     color: white;
 }
+p{
+    font-size: 3.5rem;
+    text-align: center;
 
+}
 .next{
     margin-bottom: 1rem;
 }
-
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     .post {
