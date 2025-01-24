@@ -44,6 +44,8 @@ footer {
     cursor: pointer;
     transition: transform 0.3s;
     text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .postli:hover, .postsk:hover {
@@ -133,7 +135,7 @@ li {
       margin-right: 0.5%;
     }
     .postli, .postsk {
-        width: 22rem;
+        width: 18rem;
         margin-bottom: 1rem;
   }
 }
