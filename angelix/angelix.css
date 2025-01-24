@@ -4,7 +4,7 @@ body {
     color: white;
     margin: 0;
     padding: 0;
-}
+  }
 
 header {
     text-align: center;
@@ -23,11 +23,12 @@ footer {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
-    gap: 0.938rem;
+    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); 
+    gap: 0.938rem; 
     padding: 0.938rem;
-    display: flex;
-    flex-direction: column; /* Moves elements in a vertical direction */
+    display:flex;
+    flex-direction: column;
+
 }
 
 .postli, .postsk {
@@ -111,76 +112,73 @@ li {
 }
 
 
-@media only screen and (max-width: 600px) and (orientation: portrait) {
+@media only screen and (max-width: 600px) and (orientation: portrait){
     .post {
-        width: 20rem;
-        justify-content: center;
-        align-items: center;
+      width: 20rem; 
+      justify-content: center;
+      align-items: center;
     }
-
-    nav a {
-        margin: 0 0.313rem;
-        display: grid;
-        margin-top: 5%;
+    nav a{
+      margin: 0 0.313rem;
+      display:grid;
+      margin-top: 5%;
     }
-
     #open-btn {
-        position: fixed;
-        bottom: 1.25rem;
-        right: 1.25rem;
-        padding: 0.425rem 0.800rem;
-        font-size: 1rem;
-        cursor: pointer;
-        margin-right: 0.5%;
+      position:fixed; 
+      bottom: 1.25rem;
+      right: 1.25rem;
+      padding: 0.425rem 0.800rem;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-right: 0.5%;
     }
+    .postli, .postsk {
+        width: 22rem;
+        margin-bottom: 1rem;
+  }
 }
-
-
-@media only screen and (max-width: 600px) and (orientation: landscape) {
+  
+  @media only screen and (max-width: 600px) and (orientation: landscape) {
     .content {
-        display: block;
-    }
-
+      display:block;
+      }
     .post {
-        width: 20rem;
-        justify-content: center;
-        align-items: center
+      width: 20rem; 
+      justify-content: center;
+      align-items: center
     }
-}
-
-
-@media only screen and (max-width: 992px) {
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
     .post {
-        width: 95%;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
+      width: 95%; 
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
     }
-
     .content {
-        display: block;
-        margin: 0 0.313rem;
+      display:block;
+      margin: 0 0.313rem;
     }
-
-    body {
-        width: 100%;
+    body{
+        width:100%;
     }
-}
-
-@media only screen and (max-width: 1200px) {
+  }
+    
+  @media only screen and (max-width: 1200px) {
     .post {
-        width: 95%;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
+      width: 95%; 
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
     }
-
     .content {
-        display: block;
-        margin: 0 0.313rem;
+      display:block;
+      margin: 0 0.313rem;
     }
-
-    body {
-        width: 100%;
+    body{
+        width:100%;
     }
-}
+  }
+  
