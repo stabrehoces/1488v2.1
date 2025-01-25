@@ -142,8 +142,14 @@ li {
   
   @media only screen and (max-width: 600px) and (orientation: landscape) {
     .content {
-      display:block;
-      }
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); 
+      gap: 0.938rem; 
+      padding: 0.938rem;
+      display:flex;
+      flex-direction: column;
+  
+  }
     .post {
       width: 20rem; 
       justify-content: center;
@@ -160,9 +166,13 @@ li {
       margin-right: auto;
     }
     .content {
-      display:block;
-      margin: 0 0.313rem;
-    }
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); 
+      gap: 0.938rem; 
+      padding: 0.938rem;
+      flex-direction: column;
+  
+  }
     body{
         width:100%;
     }
