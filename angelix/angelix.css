@@ -55,6 +55,7 @@ footer {
 .postsk{
     background-image: url('skurk.png');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     color: black;
     font-style: oblique;
