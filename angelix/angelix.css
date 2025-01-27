@@ -55,7 +55,7 @@ footer {
 
 .postsk {
   display: inline-block;
-  background-image: url('skurk.png');
+  background: url('skurk.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -68,7 +68,7 @@ footer {
 
 .postli {
   display: inline-block;
-  background-image: url('lino.png');
+  background: url('lino.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
