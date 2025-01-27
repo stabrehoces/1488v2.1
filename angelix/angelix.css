@@ -36,7 +36,6 @@ footer {
     width: 25rem;
     min-width: fit-content;
     height: 8.125rem;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -55,23 +54,25 @@ footer {
 .postsk{
     background-image: url('skurk.png');
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     background-position: center;
     color: black;
     font-style: oblique;
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
+    display: grid;
 }
 
 .postli{
     background-image: url('lino.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
     font-style: oblique;
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
+    display: grid;
 }
 
 footer {
