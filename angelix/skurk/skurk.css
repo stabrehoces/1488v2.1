@@ -45,20 +45,22 @@ h3{
 
 .skrk{
   text-align: justify;
-  float: left;
   border-bottom: 1px white solid;
   border-top: 1px white solid;
   padding: 0.7rem;
   margin-left: 23rem;
   margin-top: 2.5rem;
+  float: left;  
+  display: grid;
 }
 
 img{
-  float: right;
   margin-right: 23rem;
   margin-top: 2.5rem;
   border: 1px solid red ;
+  float: right;
 }
+
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     .post {
