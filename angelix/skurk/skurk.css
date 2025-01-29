@@ -82,6 +82,19 @@ img{
       cursor: pointer;
       margin-right: 0.5%;
     }
+    img{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+
+    }
+    .skrk{
+      float: none;
+      display: block;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
   
   
@@ -111,6 +124,19 @@ img{
     body{
         width:100%;
     }
+    img{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+
+    }
+    .skrk{
+      float: none;
+      display: block;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
     
   @media only screen and (max-width: 1200px) {
@@ -126,6 +152,19 @@ img{
     }
     body{
         width:100%;
+    }
+    img{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+
+    }
+    .skrk{
+      float: none;
+      display: block;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
   
