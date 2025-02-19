@@ -46,10 +46,16 @@ li {
     color: white;
 }
 p{
-    font-size: 3.5rem;
+    font-size: 1.1rem;
     text-align: center;
 
 }
+h2{
+    text-align: center;
+    margin-top: 2rem;
+    border: 1px solid red;
+}
+
 .next{
     margin-bottom: 1rem;
 }
